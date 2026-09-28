@@ -8,9 +8,9 @@
 
 ## About me
 
-I build backend systems and AI services that have to work in production: REST and event-driven microservices in **NestJS/Node.js**, AI services in **Python/FastAPI** on **Azure AI Foundry**, and the React front ends that sit on top. I currently build internal and AI services for the **Saudi Ministry of Municipalities and Housing (MOMAH)**, where adoption by non-technical teams matters as much as the code.
+Full-stack and AI engineer. I build production backends and AI services: NestJS/Node.js microservices, Python/FastAPI services on Azure AI Foundry, and the React front ends on top. Currently building internal and AI services for the Saudi Ministry of Municipalities and Housing (MOMAH).
 
-I contribute to the open-source projects I depend on. My approach is simple: read the code around a feature I use, find the case one code path handles and its sibling forgot, write the test that fails on `main`, fix it, and send a small PR. Maintainers merge those fast.
+I contribute to the open-source projects I depend on: find the edge case one code path handles and its sibling forgot, write the failing test, send a small PR.
 
 ## Open source
 
