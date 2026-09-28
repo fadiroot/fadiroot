@@ -14,23 +14,52 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 
 ## Open source
 
-**Author of [`nestjs-kafka-transport`](https://github.com/fadiroot/nestjs-kafka-transport)** — a drop-in Kafka transport for `@nestjs/microservices` built on `@platformatic/kafka`, wire-compatible with the built-in kafkajs transport so services can migrate one at a time. Request-reply, retries with backoff, at-least-once commits, typed options; tested against Kafka 3.9/4.0 on Node 22/24.
+<p>
+  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-9-2ea44f?style=flat-square">
+  <img alt="under review" src="https://img.shields.io/badge/under%20review-16-blue?style=flat-square">
+  <img alt="projects" src="https://img.shields.io/badge/projects-11-lightgrey?style=flat-square">
+  <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
+</p>
 
-**Merged contributions**
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <img src="https://github.com/nestjs.png?size=24" width="18" align="top"> <b>NestJS</b> — 4 merged
+      <ul>
+        <li><a href="https://github.com/nestjs/nest/pull/17866">nest #17866</a> Redis transport: reply on the request channel with wildcards</li>
+        <li><a href="https://github.com/nestjs/nest/pull/17867">nest #17867</a> Fastify: JSON content type with parameters is JSON</li>
+        <li><a href="https://github.com/nestjs/nest-cli/pull/3595">nest-cli #3595</a> webpack: absolute tsconfig path</li>
+        <li><a href="https://github.com/nestjs/nest-cli/pull/3596">nest-cli #3596</a> SWC watch: type checker gets the app's plugins</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <img src="https://github.com/modelcontextprotocol.png?size=24" width="18" align="top"> <b>Model Context Protocol</b> — 3 merged (fastmcp)
+      <ul>
+        <li><a href="https://github.com/punkpeye/fastmcp/pull/389">#389</a> keep <code>canAccess</code> tools visible without auth</li>
+        <li><a href="https://github.com/punkpeye/fastmcp/pull/390">#390</a> <code>prompts/get</code>: <code>-32602</code> on a missing argument</li>
+        <li><a href="https://github.com/punkpeye/fastmcp/pull/391">#391</a> CI: re-pin the Stripe benchmark spec</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="https://github.com/Automattic.png?size=24" width="18" align="top"> <b>Mongoose</b> — 1 merged
+      <ul>
+        <li><a href="https://github.com/Automattic/mongoose/pull/16526">#16526</a> <code>bulkWrite updateMany</code> no longer mutates the caller's update</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <img src="https://github.com/urfave.png?size=24" width="18" align="top"> <b>urfave/cli</b> (Go) — 1 merged
+      <ul>
+        <li><a href="https://github.com/urfave/cli/pull/2444">#2444</a> restore <code>Unwrap</code> on the error returned by <code>Exit</code></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-| Project | Change |
-|---|---|
-| [nestjs/nest](https://github.com/nestjs/nest/pull/17866) | Redis transport: reply on the request channel when wildcards are enabled |
-| [nestjs/nest](https://github.com/nestjs/nest/pull/17867) | Fastify adapter: treat `application/json; charset=utf-8` as JSON |
-| [nestjs/nest-cli](https://github.com/nestjs/nest-cli/pull/3595) | webpack: resolve the tsconfig path absolutely |
-| [nestjs/nest-cli](https://github.com/nestjs/nest-cli/pull/3596) | SWC watch mode: fork the type checker with the application's plugins |
-| [Automattic/mongoose](https://github.com/Automattic/mongoose/pull/16526) | `bulkWrite` `updateMany`: stop mutating the caller's update object |
-| [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp/pull/389) | Keep `canAccess` tools visible to sessions without auth after a runtime change |
-| [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp/pull/390) | `prompts/get`: answer `-32602` when a required argument is missing |
-| [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp/pull/391) | Re-pin the Stripe benchmark spec (CI) |
-| [urfave/cli](https://github.com/urfave/cli/pull/2444) | Restore `Unwrap` on the error returned by `Exit` |
+**Author of [`nestjs-kafka-transport`](https://github.com/fadiroot/nestjs-kafka-transport)** — a drop-in Kafka transport for `@nestjs/microservices` on `@platformatic/kafka`, wire-compatible with the built-in kafkajs transport so services migrate one at a time. Request-reply, retries with backoff, at-least-once commits, typed options; tested on Kafka 3.9/4.0, Node 22/24.
 
-**Under review:** NestJS (media-type versioning), Docker CLI (`volume create` cluster options), Fiber (compress: repeated `Accept-Encoding` lines), MCP Go SDK (custom methods over SSE), NestJS Swagger, urfave/cli, Zulip (playgrounds validation, webhook event filtering), Medusa (`BigNumber`, `promiseAll`, refundable totals), PentAGI, InstaDeep Jumanji. Full list: [pull requests by me](https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot).
+**Under review** — NestJS (media-type versioning), Docker CLI, Fiber, MCP Go SDK, NestJS Swagger, urfave/cli, Zulip ×2, Medusa ×3, fastmcp ×2, PentAGI, InstaDeep Jumanji ×2. Everything: [pull requests by me](https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot).
 
 ## Stack
 
