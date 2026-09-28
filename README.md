@@ -15,9 +15,9 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 ## Open source
 
 <p>
-  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-9-2ea44f?style=flat-square">
+  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-10-2ea44f?style=flat-square">
   <img alt="under review" src="https://img.shields.io/badge/under%20review-16-blue?style=flat-square">
-  <img alt="projects" src="https://img.shields.io/badge/projects-11-lightgrey?style=flat-square">
+  <img alt="projects" src="https://img.shields.io/badge/projects-14-lightgrey?style=flat-square">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
 </p>
 
@@ -49,9 +49,10 @@ I contribute to the open-source projects I depend on: find the edge case one cod
       </ul>
     </td>
     <td valign="top">
-      <img src="https://github.com/urfave.png?size=24" width="18" align="top"> <b>urfave/cli</b> (Go) — 1 merged
+      <img src="https://github.com/urfave.png?size=24" width="18" align="top"> <b>urfave/cli</b> (Go) — 2 merged
       <ul>
         <li><a href="https://github.com/urfave/cli/pull/2444">#2444</a> restore <code>Unwrap</code> on the error returned by <code>Exit</code></li>
+        <li><a href="https://github.com/urfave/cli/pull/2445">#2445</a> reject a parent's <code>Local</code> flag inside a short option group</li>
       </ul>
     </td>
   </tr>
@@ -59,7 +60,7 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 
 **Author of [`nestjs-kafka-transport`](https://github.com/fadiroot/nestjs-kafka-transport)** — a drop-in Kafka transport for `@nestjs/microservices` on `@platformatic/kafka`, wire-compatible with the built-in kafkajs transport so services migrate one at a time. Request-reply, retries with backoff, at-least-once commits, typed options; tested on Kafka 3.9/4.0, Node 22/24.
 
-**Under review** — NestJS (media-type versioning), Docker CLI, Fiber, MCP Go SDK, NestJS Swagger, urfave/cli, Zulip ×2, Medusa ×3, fastmcp ×2, PentAGI, InstaDeep Jumanji ×2. Everything: [pull requests by me](https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot).
+**Under review** — NestJS (media-type versioning), Docker CLI, Fiber, MCP Go SDK, NestJS Swagger, Zulip ×2, Medusa ×3, fastmcp ×2, PentAGI, InstaDeep Jumanji ×2. Everything: [pull requests by me](https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot).
 
 ## Stack
 
