@@ -71,7 +71,3 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 - npm: [fadiromdhan](https://www.npmjs.com/~fadiromdhan)
 - Open to remote full-time roles and contract work (Tunisia, UTC+1).
 
-<p align="center">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=fadiroot&show_icons=true&hide_border=true&count_private=true&theme=default" height="150">
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadiroot&layout=compact&hide_border=true" height="150">
-</p>
