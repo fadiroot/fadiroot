@@ -16,7 +16,7 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 
 <p>
   <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-12-2ea44f?style=flat-square">
-  <img alt="under review" src="https://img.shields.io/badge/under%20review-16-blue?style=flat-square">
+  <img alt="under review" src="https://img.shields.io/badge/under%20review-14-blue?style=flat-square">
   <img alt="projects" src="https://img.shields.io/badge/projects-14-lightgrey?style=flat-square">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
 </p>
@@ -58,11 +58,25 @@ I contribute to the open-source projects I depend on: find the edge case one cod
       </ul>
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <img src="https://github.com/debpalash.png?size=24" width="18" align="top"> <b>VoiceStudio</b> (Python) — 1 landed
+      <ul>
+        <li><a href="https://github.com/debpalash/VoiceStudio/pull/2402">#2402</a> torn <code>.part</code> DB snapshots no longer listed as backups; shipped in the maintainer's #2419, credited in the changelog</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <b>Under review</b> — 14 open
+      <ul>
+        <li>NestJS core (media-type versioning), Docker CLI, Fiber, MCP fastmcp ×2</li>
+        <li>Medusa ×3, Zulip ×2, PentAGI, InstaDeep Jumanji ×2, Mazinger</li>
+        <li><a href="https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot">all pull requests</a></li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
-**Author of [`nestjs-kafka-transport`](https://github.com/fadiroot/nestjs-kafka-transport)** — a drop-in Kafka transport for `@nestjs/microservices` on `@platformatic/kafka`, wire-compatible with the built-in kafkajs transport so services migrate one at a time. Request-reply, retries with backoff, at-least-once commits, typed options; tested on Kafka 3.9/4.0, Node 22/24.
-
-**Under review** — NestJS (media-type versioning), NestJS Swagger, Docker CLI, Fiber, Zulip ×2, Medusa ×3, fastmcp ×2, PentAGI, InstaDeep Jumanji ×2, VoiceStudio, Mazinger. Everything: [pull requests by me](https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot).
+**Author of [`nestjs-kafka-transport`](https://github.com/fadiroot/nestjs-kafka-transport)** (v0.3) — a drop-in Kafka transport for `@nestjs/microservices` on `@platformatic/kafka`, wire-compatible with the built-in kafkajs transport so services migrate one at a time. Request-reply with lost-reply detection and operation ids, retries with backoff, dead-letter topics, per-record or manual commits, a Terminus health indicator, typed options; e2e-tested on Kafka 3.9/4.0 and Node 22/24.
 
 **At work** — 146 merged PRs in private repositories: the directives platform, AI agents and data-sync services of the Ministry of Municipalities and Housing, and an e-commerce backend.
 
