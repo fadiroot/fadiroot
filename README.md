@@ -2,7 +2,7 @@
 <p align="center"><b>Full-Stack &amp; AI Agent Engineer</b> · TypeScript / NestJS / Node.js · Python / FastAPI · React</p>
 <p align="center">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport on npm" src="https://img.shields.io/npm/v/nestjs-kafka-transport?label=nestjs-kafka-transport&color=cb3837"></a>
-  <a href="https://github.com/fadiroot?tab=repositories"><img alt="repositories" src="https://img.shields.io/badge/repos-41-blue"></a>
+  <a href="https://github.com/fadiroot?tab=repositories"><img alt="repositories" src="https://img.shields.io/badge/repos-43-blue"></a>
   <img alt="location" src="https://img.shields.io/badge/Tunisia-UTC%2B1-green">
 </p>
 
@@ -15,8 +15,8 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 ## Open source
 
 <p>
-  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-10-2ea44f?style=flat-square">
-  <img alt="under review" src="https://img.shields.io/badge/under%20review-16-blue?style=flat-square">
+  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-11-2ea44f?style=flat-square">
+  <img alt="under review" src="https://img.shields.io/badge/under%20review-15-blue?style=flat-square">
   <img alt="projects" src="https://img.shields.io/badge/projects-14-lightgrey?style=flat-square">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
 </p>
@@ -33,11 +33,12 @@ I contribute to the open-source projects I depend on: find the edge case one cod
       </ul>
     </td>
     <td valign="top" width="50%">
-      <img src="https://github.com/modelcontextprotocol.png?size=24" width="18" align="top"> <b>Model Context Protocol</b> — 3 merged (fastmcp)
+      <img src="https://github.com/modelcontextprotocol.png?size=24" width="18" align="top"> <b>Model Context Protocol</b> — 4 merged (fastmcp, Go SDK)
       <ul>
         <li><a href="https://github.com/punkpeye/fastmcp/pull/389">#389</a> keep <code>canAccess</code> tools visible without auth</li>
         <li><a href="https://github.com/punkpeye/fastmcp/pull/390">#390</a> <code>prompts/get</code>: <code>-32602</code> on a missing argument</li>
         <li><a href="https://github.com/punkpeye/fastmcp/pull/391">#391</a> CI: re-pin the Stripe benchmark spec</li>
+        <li><a href="https://github.com/modelcontextprotocol/go-sdk/pull/1292">go-sdk #1292</a> SSE transport: accept custom methods</li>
       </ul>
     </td>
   </tr>
@@ -60,7 +61,9 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 
 **Author of [`nestjs-kafka-transport`](https://github.com/fadiroot/nestjs-kafka-transport)** — a drop-in Kafka transport for `@nestjs/microservices` on `@platformatic/kafka`, wire-compatible with the built-in kafkajs transport so services migrate one at a time. Request-reply, retries with backoff, at-least-once commits, typed options; tested on Kafka 3.9/4.0, Node 22/24.
 
-**Under review** — NestJS (media-type versioning), Docker CLI, Fiber, MCP Go SDK, NestJS Swagger, Zulip ×2, Medusa ×3, fastmcp ×2, PentAGI, InstaDeep Jumanji ×2. Everything: [pull requests by me](https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot).
+**Under review** — NestJS (media-type versioning), Docker CLI, Fiber, Zulip ×2, Medusa ×3, fastmcp ×2, PentAGI, InstaDeep Jumanji ×2, VoiceStudio, Mazinger. Everything: [pull requests by me](https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot).
+
+**At work** — 146 merged PRs in private repositories: the directives platform, AI agents and data-sync services of the Ministry of Municipalities and Housing, and an e-commerce backend.
 
 ## Stack
 
