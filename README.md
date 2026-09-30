@@ -16,8 +16,8 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 
 <p>
   <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-14-2ea44f?style=flat-square">
-  <img alt="under review" src="https://img.shields.io/badge/under%20review-11-blue?style=flat-square">
-  <img alt="projects" src="https://img.shields.io/badge/projects-14-lightgrey?style=flat-square">
+  <img alt="under review" src="https://img.shields.io/badge/under%20review-16-blue?style=flat-square">
+  <img alt="projects" src="https://img.shields.io/badge/projects-18-lightgrey?style=flat-square">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
 </p>
 
@@ -69,9 +69,9 @@ I contribute to the open-source projects I depend on: find the edge case one cod
       </ul>
     </td>
     <td valign="top">
-      <b>Under review</b> — 11 open
+      <b>Under review</b> — 16 open
       <ul>
-        <li>Docker CLI, Fiber, PentAGI</li>
+        <li>Node.js undici, Fastify, platformatic/kafka ×2, IBM sarama (Go), Docker CLI, Fiber, PentAGI</li>
         <li>Medusa ×3, Zulip ×2, PentAGI, InstaDeep Jumanji ×2, Mazinger</li>
         <li><a href="https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot">all pull requests</a></li>
       </ul>
