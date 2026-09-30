@@ -15,8 +15,8 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 ## Open source
 
 <p>
-  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-12-2ea44f?style=flat-square">
-  <img alt="under review" src="https://img.shields.io/badge/under%20review-14-blue?style=flat-square">
+  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-14-2ea44f?style=flat-square">
+  <img alt="under review" src="https://img.shields.io/badge/under%20review-11-blue?style=flat-square">
   <img alt="projects" src="https://img.shields.io/badge/projects-14-lightgrey?style=flat-square">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
 </p>
@@ -24,22 +24,25 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 <table>
   <tr>
     <td valign="top" width="50%">
-      <img src="https://github.com/nestjs.png?size=24" width="18" align="top"> <b>NestJS</b> — 4 merged
+      <img src="https://github.com/nestjs.png?size=24" width="18" align="top"> <b>NestJS</b> — 4 merged, 1 landed
       <ul>
         <li><a href="https://github.com/nestjs/nest/pull/17866">nest #17866</a> Redis transport: reply on the request channel with wildcards</li>
         <li><a href="https://github.com/nestjs/nest/pull/17867">nest #17867</a> Fastify: JSON content type with parameters is JSON</li>
         <li><a href="https://github.com/nestjs/nest-cli/pull/3595">nest-cli #3595</a> webpack: absolute tsconfig path</li>
         <li><a href="https://github.com/nestjs/nest-cli/pull/3596">nest-cli #3596</a> SWC watch: type checker gets the app's plugins</li>
+        <li><a href="https://github.com/nestjs/nest/pull/17905">nest #17905</a> media-type versioning reads the version from any Accept parameter; landed on master as <a href="https://github.com/nestjs/nest/commit/697ff89e0ecad2210b68ef8e0020730182a79e52">697ff89</a> (Refs #17905)</li>
       </ul>
     </td>
     <td valign="top" width="50%">
-      <img src="https://github.com/modelcontextprotocol.png?size=24" width="18" align="top"> <b>Model Context Protocol</b> — 5 merged (fastmcp, Go SDK)
+      <img src="https://github.com/modelcontextprotocol.png?size=24" width="18" align="top"> <b>Model Context Protocol</b> — 7 merged (fastmcp, Go SDK)
       <ul>
         <li><a href="https://github.com/punkpeye/fastmcp/pull/389">#389</a> keep <code>canAccess</code> tools visible without auth</li>
         <li><a href="https://github.com/punkpeye/fastmcp/pull/390">#390</a> <code>prompts/get</code>: <code>-32602</code> on a missing argument</li>
         <li><a href="https://github.com/punkpeye/fastmcp/pull/391">#391</a> CI: re-pin the Stripe benchmark spec</li>
         <li><a href="https://github.com/modelcontextprotocol/go-sdk/pull/1292">go-sdk #1292</a> SSE transport: accept custom methods</li>
         <li><a href="https://github.com/modelcontextprotocol/go-sdk/pull/1315">go-sdk #1315</a> client: reject messages missing required params</li>
+        <li><a href="https://github.com/punkpeye/fastmcp/pull/406">fastmcp #406</a> <code>-32602</code> for an unknown tool or resource (SEP-2164)</li>
+        <li><a href="https://github.com/punkpeye/fastmcp/pull/407">fastmcp #407</a> CI: re-pin the Box, PostHog and Twilio specs</li>
       </ul>
     </td>
   </tr>
@@ -66,9 +69,9 @@ I contribute to the open-source projects I depend on: find the edge case one cod
       </ul>
     </td>
     <td valign="top">
-      <b>Under review</b> — 14 open
+      <b>Under review</b> — 11 open
       <ul>
-        <li>NestJS core (media-type versioning), Docker CLI, Fiber, MCP fastmcp ×2</li>
+        <li>Docker CLI, Fiber, PentAGI</li>
         <li>Medusa ×3, Zulip ×2, PentAGI, InstaDeep Jumanji ×2, Mazinger</li>
         <li><a href="https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot">all pull requests</a></li>
       </ul>
