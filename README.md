@@ -15,8 +15,8 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 ## Open source
 
 <p>
-  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-14-2ea44f?style=flat-square">
-  <img alt="under review" src="https://img.shields.io/badge/under%20review-16-blue?style=flat-square">
+  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-18-2ea44f?style=flat-square">
+  <img alt="under review" src="https://img.shields.io/badge/under%20review-12-blue?style=flat-square">
   <img alt="projects" src="https://img.shields.io/badge/projects-18-lightgrey?style=flat-square">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
 </p>
@@ -63,16 +63,32 @@ I contribute to the open-source projects I depend on: find the edge case one cod
   </tr>
   <tr>
     <td valign="top">
+      <img src="https://github.com/platformatic.png?size=24" width="18" align="top"> <b>Platformatic Kafka</b> — 2 merged
+      <ul>
+        <li><a href="https://github.com/platformatic/kafka/pull/432">#432</a> <code>getSendBrokers</code>: modulo instead of bitwise AND on the partition</li>
+        <li><a href="https://github.com/platformatic/kafka/pull/433">#433</a> <code>listOffsets</code> schema: <code>isolationLevel</code> is a number</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <img src="https://github.com/gofiber.png?size=24" width="18" align="top"> <b>Fiber</b> (Go) and <img src="https://github.com/medusajs.png?size=24" width="18" align="top"> <b>Medusa</b> — 2 merged
+      <ul>
+        <li><a href="https://github.com/gofiber/fiber/pull/4708">fiber #4708</a> compress honours repeated <code>Accept-Encoding</code> lines, new <code>Req.HasHeaderValue</code></li>
+        <li><a href="https://github.com/medusajs/medusa/pull/17048">medusa #17048</a> <code>promiseAll</code> aggregates non-Error rejections</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
       <img src="https://github.com/debpalash.png?size=24" width="18" align="top"> <b>VoiceStudio</b> (Python) — 1 landed
       <ul>
         <li><a href="https://github.com/debpalash/VoiceStudio/pull/2402">#2402</a> torn <code>.part</code> DB snapshots no longer listed as backups; shipped in the maintainer's #2419, credited in the changelog</li>
       </ul>
     </td>
     <td valign="top">
-      <b>Under review</b> — 16 open
+      <b>Under review</b> — 12 open
       <ul>
-        <li>Node.js undici, Fastify, platformatic/kafka ×2, IBM sarama (Go), Docker CLI, Fiber, PentAGI</li>
-        <li>Medusa ×3, Zulip ×2, PentAGI, InstaDeep Jumanji ×2, Mazinger</li>
+        <li>Node.js undici, Fastify, IBM sarama (Go), Docker CLI, PentAGI</li>
+        <li>Medusa ×2, Zulip ×2, InstaDeep Jumanji ×2, Mazinger</li>
         <li><a href="https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot">all pull requests</a></li>
       </ul>
     </td>
