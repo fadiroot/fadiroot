@@ -15,8 +15,8 @@ I contribute to the open-source projects I depend on: find the edge case one cod
 ## Open source
 
 <p>
-  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-18-2ea44f?style=flat-square">
-  <img alt="under review" src="https://img.shields.io/badge/under%20review-12-blue?style=flat-square">
+  <img alt="merged" src="https://img.shields.io/badge/merged%20PRs-19-2ea44f?style=flat-square">
+  <img alt="under review" src="https://img.shields.io/badge/under%20review-11-blue?style=flat-square">
   <img alt="projects" src="https://img.shields.io/badge/projects-18-lightgrey?style=flat-square">
   <a href="https://www.npmjs.com/package/nestjs-kafka-transport"><img alt="nestjs-kafka-transport" src="https://img.shields.io/npm/v/nestjs-kafka-transport?style=flat-square&label=author%20of%20nestjs-kafka-transport&color=cb3837"></a>
 </p>
@@ -70,10 +70,11 @@ I contribute to the open-source projects I depend on: find the edge case one cod
       </ul>
     </td>
     <td valign="top">
-      <img src="https://github.com/gofiber.png?size=24" width="18" align="top"> <b>Fiber</b> (Go) and <img src="https://github.com/medusajs.png?size=24" width="18" align="top"> <b>Medusa</b> — 2 merged
+      <img src="https://github.com/gofiber.png?size=24" width="18" align="top"> <b>Fiber</b> (Go), <img src="https://github.com/medusajs.png?size=24" width="18" align="top"> <b>Medusa</b>, <img src="https://github.com/fastify.png?size=24" width="18" align="top"> <b>Fastify</b> — 3 merged
       <ul>
         <li><a href="https://github.com/gofiber/fiber/pull/4708">fiber #4708</a> compress honours repeated <code>Accept-Encoding</code> lines, new <code>Req.HasHeaderValue</code></li>
         <li><a href="https://github.com/medusajs/medusa/pull/17048">medusa #17048</a> <code>promiseAll</code> aggregates non-Error rejections</li>
+        <li><a href="https://github.com/fastify/fastify/pull/7068">fastify #7068</a> <code>reply.header</code> copies a <code>set-cookie</code> array instead of mutating the caller's</li>
       </ul>
     </td>
   </tr>
@@ -85,9 +86,9 @@ I contribute to the open-source projects I depend on: find the edge case one cod
       </ul>
     </td>
     <td valign="top">
-      <b>Under review</b> — 12 open
+      <b>Under review</b> — 11 open
       <ul>
-        <li>Node.js undici, Fastify, IBM sarama (Go), Docker CLI, PentAGI</li>
+        <li>Node.js undici, IBM sarama (Go), Docker CLI, PentAGI, rankme.fast</li>
         <li>Medusa ×2, Zulip ×2, InstaDeep Jumanji ×2, Mazinger</li>
         <li><a href="https://github.com/pulls?q=is%3Apr+author%3Afadiroot+-user%3Afadiroot">all pull requests</a></li>
       </ul>
