@@ -1,7 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=170&section=header&text=Fadi%20Romdhan&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Engineer%20%C2%B7%20Backend%20%26%20Frontend%20%C2%B7%20Open%20Source&descAlignY=58&descSize=17" width="100%" alt="Fadi Romdhan, Full-Stack Engineer" />
+<h1 align="center">Fadi Romdhan</h1>
+<p align="center"><b>Full-Stack Engineer</b> · Backend &amp; Frontend · Open Source</p>
 
 <p align="center">
-  <a href="mailto:fadiromdhan3@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-fadiromdhan3%40gmail.com-0f172a?style=flat-square&logo=gmail&logoColor=white"></a>
+  <a href="mailto:fadiromdhan2@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-fadiromdhan2%40gmail.com-0f172a?style=flat-square&logo=gmail&logoColor=white"></a>
   <a href="https://www.npmjs.com/~fadiromdhan"><img alt="npm" src="https://img.shields.io/badge/npm-fadiromdhan-cb3837?style=flat-square&logo=npm&logoColor=white"></a>
   <img alt="Location" src="https://img.shields.io/badge/Tunisia-UTC%2B1-2563eb?style=flat-square">
   <img alt="Open to work" src="https://img.shields.io/badge/open%20to-remote%20%26%20contract-2ea44f?style=flat-square">
@@ -63,4 +64,3 @@ A drop-in Kafka transport for NestJS microservices, built on `@platformatic/kafk
 
 146 merged PRs in private repositories: MOMAH platforms and LMS projects.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=90&section=footer" width="100%" alt="" />
