@@ -61,6 +61,6 @@ A drop-in Kafka transport for NestJS microservices, built on `@platformatic/kafk
 
 ## At work
 
-146 merged PRs in private repositories: the directives platform and data-sync services for MOMAH, and an e-commerce backend.
+146 merged PRs in private repositories: MOMAH platforms and LMS projects.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:0f172a&height=90&section=footer" width="100%" alt="" />
